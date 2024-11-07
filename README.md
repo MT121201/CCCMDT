@@ -1,5 +1,5 @@
-# CCCMDT
-Compositional Conditional Consistency Model Diffusion Transformer
+# Compositional Conditional Consistency Model Diffusion Transformer
+
 ## Installation
 - Python > 3.9 recommended Conda
 - PyTorch >= 1.13.0+cu11.7
