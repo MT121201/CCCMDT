@@ -1,6 +1,6 @@
 # DiT - Diffusion Transformers
 A Diffusion Transformer with adaptive layer norm zero (adaLN-Zero) conditioning.
-[DiT](image/DiT.png)
+![DiT](../../../image/DiT.png)
 ## Block DiT
 Shape: `output.shape = input.shape`
 
