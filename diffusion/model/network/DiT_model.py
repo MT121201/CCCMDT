@@ -289,7 +289,7 @@ def get_2d_sincos_pos_embed_from_grid(embed_dim, grid):
 
 def get_1d_sincos_pos_embed_from_grid(embed_dim, pos):
     """
-    Computes sinusoidal positional embeddings for a sequence of positions.
+    Computes sinusoidal positional embeddings for a sequence of positions. and one unconditional version.
     :param embed_dim: Embedding dimension.
     :param pos: Array of positions.
     :return: Sinusoidal embedding for each position.
