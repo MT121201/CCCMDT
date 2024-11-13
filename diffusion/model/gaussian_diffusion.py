@@ -778,7 +778,7 @@ class GaussianDiffusion:
         mse = th.stack(mse, dim=1)
 
         prior_bpd = self._prior_bpd(x_start)
-        total_bpd = vb.sum(dim=1) + prior_bpd############################################################################################################
+        total_bpd = vb.sum(dim=1) + prior_bpd
         return {
             "total_bpd": total_bpd,
             "prior_bpd": prior_bpd,
